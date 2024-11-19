@@ -8,10 +8,10 @@ hi(name)
    https://replit.com/@NamG1/toya03hi
 
 01 lam bai vao tep s00_bailam.py, chay Run de co ketqua tatca la 1
-02a tao github repo, mo kiemtra tep s00_bailam.py, va lay diachi/url aka githubrepourl
+02a tao github repo, mo kiemtra tep s00_bailam.py, va lay diachi/url aka githubbailamourl
 
-02b dan diachi githubrepourl tu trang web duoiday
-    https://forms.gle/uYheiLdfy6K8LVQj6
+02b dan diachi githubbailamourl tu trang web duoiday
+    https://forms.gle/s46X7pPDY7p79NQr5
 
 --- debai / problem
 Khi chay voi input           | Ketqua output
@@ -30,6 +30,6 @@ hi('1', '22', '333', '4444') | Hi 1, 22, 333, and 4444!
 #endregion debai
 
 #region bailam
-def hi(name):
-  return 'todo'
+def hi(*args):
+   return 'TODO'
 #endregion bailam
