@@ -39,5 +39,20 @@ print(hi(name='Mom'))
 print(hi('Mom')) 
 print(hi('')) 
 print(hi())
-print(hi(None)) 
+print(hi(None))
+
+def hi(*names):
+  ds_names = [name for name in names if name]
+
+  if not ds_names:
+    return "Hi!"
+
+  if len(ds_names) == 1:
+    return f"Hi {ds_names[0]}!"
+
+  return f"Hi {', '.join(ds_names[:-1])}, and {ds_names[-1]}!"
+
+print(hi('Mom', 'Dad'))
+print(hi('A', 'B', 'C'))
+print(hi('1', '22', '333', '4444'))
 #endregion bailam
